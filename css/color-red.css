@@ -1,0 +1,78 @@
+/*-----------------
+* [Master Stylesheet]
+*
+* Theme    : WillyWonka
+* Version  : 1.0
+* Author   : sujal
+* 
+------------------*/
+::-webkit-scrollbar{
+    width: 4px;
+    color: #d7d7d7;
+}
+::-webkit-scrollbar-thumb {
+    background: #d7d7d7; 
+    border-radius: 4px;
+    width: 4px;
+  }
+  #breaker{
+      background-color: #d7d7d7;
+  }
+  .color{
+      color: #d7d7d7;
+  }
+  #about-content a{
+      color:#d7d7d7 ;
+  }
+  .cv a button{
+      background: #d7d7d7;
+  }
+  .service-img img{
+    background: #d7d7d7;
+    box-shadow:0px 0px 0px 0px #d7d7d7 ;
+  }
+  .service:hover .service-img img{
+    box-shadow:0px 0px 0px 400px #d7d7d7 ;
+}
+.html-progress{
+    background: #d7d7d7;
+}
+.js-progress{
+    background: #d7d7d7;
+}
+.adobe-progress{
+    background: #d7d7d7;
+}
+.php-progress{
+    background: #d7d7d7;
+}
+.jquery-progress{
+    background: #d7d7d7;
+}
+.seo-progress{
+    background: #d7d7d7;
+}
+.portfolio-text h2{
+    color: #d7d7d7;
+}
+.portfolio-text button{
+    color: #d7d7d7;
+    border: 1.5px solid #d7d7d7;
+}
+.portfolio-text button::before{
+    background: #d7d7d7;
+}
+.portfolio-image img::before{
+    background: #d7d7d7;
+}
+.blog-date{
+    background: #d7d7d7;
+}
+form button{
+    background: #d7d7d7;
+}
+@media all and (max-width: 550px) and (min-width: 5px){
+    .service:hover .service-img img{
+        box-shadow:0px 0px 0px 0px #d7d7d7 ;
+    }
+}
